@@ -18,7 +18,6 @@ namespace ClassPropertiesDemo
             private set { _middleName = value; }
         }
 
-        // some other change.
 
         private string _password;
         public string Password
