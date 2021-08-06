@@ -15,8 +15,6 @@ namespace ClassPropertiesDemo
             
             Console.WriteLine("Press any key...");
             Console.ReadKey();
-
-            // Some change for github demonstration
         }
     }
 }
