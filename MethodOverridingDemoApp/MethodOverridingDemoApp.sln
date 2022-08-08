@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverridingDemo", "MethodOverridingDemo\MethodOverridingDemo.csproj", "{0334538F-28B8-4ED6-B2B6-3B8DE31CA253}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0334538F-28B8-4ED6-B2B6-3B8DE31CA253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0334538F-28B8-4ED6-B2B6-3B8DE31CA253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0334538F-28B8-4ED6-B2B6-3B8DE31CA253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0334538F-28B8-4ED6-B2B6-3B8DE31CA253}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F199446A-0631-4679-9D61-A378609B2CFE}
+	EndGlobalSection
+EndGlobal

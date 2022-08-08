@@ -1,0 +1,21 @@
+﻿@page "/"
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration config
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+@code {
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        int val = config.GetValue<int>("WeatherForecast:ForecastDays");
+        // val will be from secrets
+    }
+}
+
+<SurveyPrompt Title="How is Blazor working for you?" />

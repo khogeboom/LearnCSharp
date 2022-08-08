@@ -1,0 +1,10 @@
+﻿@page "/"
+@namespace BlazorApp.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = "_Layout";
+}
+
+@*https://blog.stevensanderson.com/2019/09/13/blazor-inputfile/*@
+
+<component type="typeof(App)" render-mode="ServerPrerendered" />
